@@ -28,7 +28,7 @@ namespace Microsoft.Azure.SignalR.Samples.ChatRoom
             app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapHub<ChatSampleHub1>("/chat1");
+                endpoints.MapHub<ChatSampleHub>("/chat");
             });
         }
     }
